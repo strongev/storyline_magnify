@@ -35,7 +35,7 @@ function Magnify(image_) {
   document.body.appendChild(magnifier);
 
   let targetElement;
-  const zoomLevel = 2; 
+  const zoomLevel = 3; 
 
   document.addEventListener('mousemove', (event) => {
     if (targetElement) {
